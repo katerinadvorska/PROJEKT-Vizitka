@@ -18,7 +18,6 @@ body {
     background-color: #b2bec3;
     font-family: 'Nunito', sans-serif;
     font-size: 18px;
-    margin: 150px
 }
 
 img {
@@ -35,6 +34,8 @@ img {
     position: relative;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 150px;
+    margin-bottom: 0;
     width: 50%;
     width: 550px;
     background-color: white;
@@ -76,10 +77,26 @@ a {
     background-color: #0b7bc1;
 }
 
+.twitter:hover {
+    background-color: #0b7bc1;
+}
+
+.twitter:focus {
+    background-color: #0b7bc1;
+}
+
 .facebook {
     background-color: #3b5998;
 }
 
 .facebook:active {
+    background-color: #2b406e;
+}
+
+.facebook:hover {
+    background-color: #2b406e;
+}
+
+.facebook:focus {
     background-color: #2b406e;
 }
